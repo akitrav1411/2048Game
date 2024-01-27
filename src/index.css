@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+/* *{
+  
+} */
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #faf8ef;
+  font-family: sans-serif;
+}
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

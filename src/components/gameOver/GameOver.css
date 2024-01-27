@@ -1,0 +1,40 @@
+@keyframes pop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#game-over {
+  width: 100vw;
+  height: 100vh;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(40, 38, 23, 0.95); */
+  background: linear-gradient(#383624, #282617);
+  animation: pop-in 1s;
+}
+#game-over h1 {
+  /* font-family: "Caprasimo", cursive; */
+  font-size: 6rem;
+  text-align: center;
+  color: #776e65;
+  margin: 0;
+}
+#game-over button {
+  margin: 0 auto;
+  font-size: 3.5rem;
+  padding: 1.5rem;
+  background: none;
+  border: 2px solid #fcd256;
+  color: #fcd256;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s, color 0.2s;
+  box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
+}

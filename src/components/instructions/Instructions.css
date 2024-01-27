@@ -1,0 +1,9 @@
+.instructions {
+  width: 450px;
+  padding: 2rem 0;
+}
+.instructions p {
+  font-size: 1.6rem;
+  line-height: 1.65;
+  color: #776e65;
+}
